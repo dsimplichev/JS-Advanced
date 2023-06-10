@@ -1,7 +1,8 @@
 function biggerHalf(array){
 
 let middle = Math.floor(array.length / 2)
-let result = array.sort((a,b) => a - b)
+let result = array.sort((a,b) => a - b).slice(middle)
+
 console.log(result)
 
 
