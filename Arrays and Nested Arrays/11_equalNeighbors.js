@@ -1,0 +1,6 @@
+function equal(){
+
+
+
+}
+equal()
