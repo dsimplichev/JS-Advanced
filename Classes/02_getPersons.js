@@ -14,7 +14,7 @@ class Person {
     
     
 }
-const firstPerson = new Person('Anna', 'Simpson', 22, 'anna@yahoo.com');
+     const firstPerson = new Person('Anna', 'Simpson', 22, 'anna@yahoo.com');
     const secondPerson = new Person('SoftUni')
     const thirdPerson = new Person('Stephan', 'Johnson', 25)
     const fourthPerson = new Person('Gabriel', 'Peterson', 24, 'g.p@gmail.com')
