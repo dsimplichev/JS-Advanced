@@ -1,4 +1,4 @@
-window.addEventListener('load', solve);
+window.addEventListener('load', solve)
 
 
 
@@ -15,7 +15,7 @@ function solve() {
                 e.preventDefault();
 
                 const modelInputValue = modelInput.value;
-                const caryearInputValue = caryearInput.value;
+                const caryearInputValue = Number(caryearInput.value);
                 const partnameInputValue = partnameInput.value;
                 const partnumberInputValue = partnumberInput.value;
                 const conditionValue = condition.value;
@@ -167,7 +167,7 @@ function solve() {
                 }
         }
 
-};
+}
 
 
 
